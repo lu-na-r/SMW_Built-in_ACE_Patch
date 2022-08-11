@@ -97,8 +97,7 @@ If you find other issues, contact me please.
 7. Licence
 
     Make sure you check the licence.txt file for the licence.
-    The main points are
-        - you are basically free to modify SMW_Built-in_ACE_Patch.asm following MIT License, but you must not modify the following parts (to prevent cheating in RTA)
+    The main points is that you are basically free to modify SMW_Built-in_ACE_Patch.asm, but you must not modify the following parts (to prevent cheating in RTA)
             a. one byte below of org $009356 (one byte below of org $0093c1 for US patch)
             b. 5 bytes below subroutine executeArbitraryCode in org $03e055 (5 bytes below subroutine executeArbitraryCode in org $03e05c for US patch)
 
