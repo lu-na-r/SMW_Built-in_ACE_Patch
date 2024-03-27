@@ -1,11 +1,9 @@
 How to Use SMW Built-in ACE Patch
 
-tomoha
-
 Thank you for downloading the SMW Built-in ACE Patch!
-This patch is a research tool that allows you to execute any code in Mario World at any time you want
+This patch is a research tool that allows you to execute any code in Super Mario World at any time you want
 
-Please read and understand the following information carefully before use this tool
+Please read and understand the following information carefully before you use this tool
 
 
 1. Files
@@ -13,11 +11,9 @@ The SMW Built-in ACE Patch consists of the following files
 
     SMW_Built-in_ACE_Patch_JP.asm (Patch for Japanese ROM)
     SMW_Built-in_ACE_Patch_US.asm (Patch for US ROM)
-    asar.exe
     Folders for English and Japanese explanations
         - README.txt
         - sample.txt
-        - LICENSE.txt
 
 Note that the unedited ROM of the Japanese or North American version of Super Mario World is required to use this patch
 Please prepare the ROM by yourself using a dumper
@@ -96,7 +92,6 @@ If you find other issues, contact me please.
 
 7. Licence
 
-    Make sure you check the licence.txt file for the licence.
     The main points is that you are basically free to modify SMW_Built-in_ACE_Patch.asm, but you must not modify the following parts (to prevent cheating in RTA)
             a. one byte below of org $009356 (one byte below of org $0093c1 for US patch)
             b. 5 bytes below subroutine executeArbitraryCode in org $03e055 (5 bytes below subroutine executeArbitraryCode in org $03e05c for US patch)
@@ -104,23 +99,17 @@ If you find other issues, contact me please.
 
 8. Q&A 
 
-    Q. The code is too unreadable. Please study programming before coming back.
-    A. I am not a programmer nor does I know much about programming (as I know nothing other than 65C816). I would be happy if you could rewrite it yourself.
+    Q. The code is too unreadable. Please learn programming before you write program.
+    A. I am not a programmer nor does I know much about programming (as I know nothing other than 65C816). I would be happy if you could rewrite it by yourself.
 
-    Q. I have an idea about the next update.
-    A. Please contact me at the contact details below, then I will consider. If my technical skills can handle it, though. ......
+    Q. I have an idea for the next update.
+    A. Please contact me, then I will consider. If my technical skills can handle it, though. ......
 
     Q. I don't know assembly language(?) but I'd like to execute some arbitrary code!
     A. Try the code in sample.txt. I bet you'll have fun!
 
 
-9. Contacts
-
-    Twitter: @_tomoha__
-    Discord: tomoha#8141
-
-
-10. Credits
+9. Credits
 
     For the Code Editor program, I modified Hex Editor program by SethBling and Mally.
     https://docs.google.com/document/d/1v_OOxPMX4ztkPQkqe3HeSpazmDA-ljRt7Mv2wd5JrKw/edit
