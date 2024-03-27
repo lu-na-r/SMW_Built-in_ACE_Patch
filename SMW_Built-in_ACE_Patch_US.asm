@@ -1,6 +1,5 @@
 ; SMW Built-in ACE Patch
 ; ver. 1.0.0
-; by tomoha 2022-08-09
 
 
 !CodeEditorOpenFlag = $79
